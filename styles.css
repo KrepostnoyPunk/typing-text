@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e2dcdc;
+    font-size: 40px;
+    height: 100vh;
+    background: linear-gradient(160deg, rgba(40,48,72,1) 0%, rgba(25,25,25,1) 90%);
+    padding: 10px;
+}
+
+.rotating__text__container{
+    width: 520px;
+    overflow: hidden;
+}
+
+.rotating__text__text {
+    color: rgb(29, 138, 248);
+}
